@@ -47,7 +47,7 @@ class TelegramAuth(APIRouter):
     def __init__(
             self,
             bot_token: str,
-            on_success: Callable[[TelegramLoginData], Coroutine[Any, Any, None]] = None,
+            on_success: Callable[[TelegramLoginData], Coroutine[Any, Any, Any]] = None,
             prefix: str = "",
             tags: Optional[List[Union[str, Enum]]] = None,
             dependencies: Optional[Sequence[params.Depends]] = None,
