@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "fastapi_telegram_auth"
-version = "0.1.0"
+version = "0.1.1"
 description = "FastAPI router for fast Telegram auth integration"
 authors = ["pylakey <pylakey@protonmail.com>"]
 license = "MIT"
